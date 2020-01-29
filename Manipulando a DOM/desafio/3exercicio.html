@@ -1,0 +1,38 @@
+<html>
+  <header>
+      <title>Curso de JavaScript</title>
+  </header>
+  <body>
+    <!--
+      3º exercício
+      A partir do seguinte vetor:
+      var nomes = ["Diego", "Gabriel", "Lucas"];
+      Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
+      ● Diego
+      ● Gabriel
+      ● Lucas
+            
+      var adicionarColor = getRandomColor(); // #E943F0
+    -->
+    <div id="app">
+      <ul id="lista">
+
+      </ul>
+
+      <script>
+        var lista = document.getElementById('lista');
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+
+        function addNome(nome) {
+          var  item = document.createElement('li');
+          item.textContent = nome;
+          lista.appendChild(item);
+        };  
+        
+        for (let i = 0; i < nomes.length; i++) {
+          addNome(nomes[i]);
+        }
+
+    </script>
+  </body>
+</html>

@@ -11,10 +11,10 @@ Nesse curso precisamos instalar o Node.js e o Yarn.
 > yarn init
 
 ## Instalando o Babel CLI
-- @babel/cli
+@babel/cli
 > yarn add @babel/cli
 
--@babel/preset-env
+@babel/preset-env
 > yarn add @babel/preset-env
 
 @babel/core
